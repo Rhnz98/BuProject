@@ -12,5 +12,10 @@ public String showHomePage() {
 	return "homepage";
 	
 }
+
+@GetMapping("web")
+public String Web() {
+	return "web";
+}
 	
 }
